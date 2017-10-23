@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>SearchProduct</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'><-------------------Running Script: class testcase.main.SearchProduct-------------------></font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Start ff browser...</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Environment:  https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:57:59 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Check url are available</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:57:59 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>URL:https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:11 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Sleeping 5000ms</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:16 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>open https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Xpath: .//*[@id='header']/div[2]/div[2]/div[2]/form[1]/div[1]/div[1]/input]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:18 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type: NV10 to field: [[FirefoxDriver: firefox on WINDOWS (037ff59f-d85f-4739-a4ce-7c5cffae7fd3)] -> xpath: .//*[@id='header']/div[2]/div[2]/div[2]/form[1]/div[1]/div[1]/input]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Xpath: .//*[@id='search_form']/div/div/button]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:19 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>size 1</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:19 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>click [[FirefoxDriver: firefox on WINDOWS (037ff59f-d85f-4739-a4ce-7c5cffae7fd3)] -> xpath: .//*[@id='search_form']/div/div/button]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Xpath: .//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>get text:.//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>get text:.//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Text:NV10</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:27 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'>AssertEquals Expected: NV10 Actually: NV10</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Thu Oct 19 17:58:27 CST 2017-- log: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Close Browser</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'><-------------------End-------------------></font>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33142" started-at="2017-10-19T09:57:56Z" finished-at="2017-10-19T09:58:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33142" started-at="2017-10-19T09:57:56Z" finished-at="2017-10-19T09:58:29Z">
+      <class name="testcase.main.SearchProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.main.SearchProduct@5f9d02cb]" name="setup" is-config="true" duration-ms="20823" started-at="2017-10-19T17:57:56Z" finished-at="2017-10-19T17:58:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>SearchProduct</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'><-------------------Running Script: class testcase.main.SearchProduct-------------------></font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Start ff browser...</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:57:56 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Environment:  https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:57:59 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Check url are available</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:57:59 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>URL:https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:11 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Sleeping 5000ms</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchProductTest()[pri:0, instance:testcase.main.SearchProduct@5f9d02cb]" name="SearchProductTest" duration-ms="10507" started-at="2017-10-19T17:58:16Z" finished-at="2017-10-19T17:58:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:16 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>open https://10.202.16.217:9002/b2cstorefront/?site=electronics</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Xpath: .//*[@id='header']/div[2]/div[2]/div[2]/form[1]/div[1]/div[1]/input]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:18 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type: NV10 to field: [[FirefoxDriver: firefox on WINDOWS (037ff59f-d85f-4739-a4ce-7c5cffae7fd3)] -> xpath: .//*[@id='header']/div[2]/div[2]/div[2]/form[1]/div[1]/div[1]/input]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Xpath: .//*[@id='search_form']/div/div/button]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:19 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>size 1</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:19 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>click [[FirefoxDriver: firefox on WINDOWS (037ff59f-d85f-4739-a4ce-7c5cffae7fd3)] -> xpath: .//*[@id='search_form']/div/div/button]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Xpath: .//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>get text:.//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>get text:.//*[@id='content']/div[5]/div[2]/div[4]/div[1]/a/div[3]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:26 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Text:NV10</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:27 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'>AssertEquals Expected: NV10 Actually: NV10</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:testcase.main.SearchProduct@5f9d02cb]" name="end" is-config="true" duration-ms="1796" started-at="2017-10-19T17:58:27Z" finished-at="2017-10-19T17:58:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Thu Oct 19 17:58:27 CST 2017-- log: </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Close Browser</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'><-------------------End-------------------></font>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- testcase.main.SearchProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

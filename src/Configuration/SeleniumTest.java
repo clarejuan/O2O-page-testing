@@ -74,6 +74,12 @@ public class SeleniumTest{
 		
 		this.browser = browser.toLowerCase().trim();
 		this.url = Environment.URL;
+		String testcaseName = this.getClass().getName();
+		if(testcaseName.contains(".")){
+			testcaseName = testcaseName.substring(testcaseName.lastIndexOf('.')+1);
+		}
+		this.executeClass = testcaseName;
+		log(testcaseName);
 		return visit();
 		
 	}
@@ -98,9 +104,10 @@ public class SeleniumTest{
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer(); 
 			ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	        System.setProperty("webdriver.ie.driver",getDriverPath("IEDriverServer.exe"));
-			driver = new InternetExplorerDriver();			
+			driver = new InternetExplorerDriver();
+			
 		}else if (browser.toLowerCase().equals("chrome")) {
-	        System.setProperty("webdriver.chrome.driver","BrowserDriver/chrome");
+	        System.setProperty("webdriver.chrome.driver",getDriverPath("chrome"));
 			driver = new ChromeDriver();
 		}
 		log("Check url are available");

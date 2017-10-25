@@ -23,8 +23,6 @@ public class Order  extends SeleniumTest{
 	public void OrderTest() {
 		
 		open(ConfigFiles.PAGE_LOGIN);
-		//verifyTitle("baidu.title");
-		//verifyCopy("baidu.news");
 		click("login.link");
 		verifyCopy("login.title");
 		enter("login.email","clare.j.li@accenture.com");

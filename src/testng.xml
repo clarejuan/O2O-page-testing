@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="testdemo">
-	<!-- <test name="profile">
+	<test name="profile">
 		<classes>
 			<class name="testcase.main.SearchProduct" />
 		</classes>
-	</test> -->
+	</test>
 	<test name="Test1">
 	  <parameter name = "browser" value = "chrome"></parameter>
 	    <classes>

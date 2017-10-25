@@ -24,8 +24,6 @@ public class Registration  extends SeleniumTest{
 	public void RegistrationTest() {
 		
 		open(ConfigFiles.PAGE_LOGIN);
-		//verifyTitle("baidu.title");
-		//verifyCopy("baidu.news");
 		click("registration.link");
 		assertEquals(getTextByKey("registration.title"),"I'M A NEW CUSTOMER");
 		select(By.xpath(".//*[@id='register.title']"),"mr");
